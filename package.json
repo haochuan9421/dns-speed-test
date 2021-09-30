@@ -1,0 +1,12 @@
+{
+  "name": "dns-speed-test",
+  "scripts": {
+    "start": "node index.js",
+    "clear": "rimraf ns/**/*.png ns/**/*.json"
+  },
+  "dependencies": {
+    "puppeteer": "^10.4.0",
+    "rimraf": "^3.0.2"
+  },
+  "license": "MIT"
+}
